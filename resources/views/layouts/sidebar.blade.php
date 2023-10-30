@@ -9,8 +9,8 @@
                 <li><a class="sidebar-sub-toggle"><i class="ti-bar-chart-alt"></i>Layanan Dan Paket <span
                             class="sidebar-collapse-icon ti-angle-down"></span></a>
                     <ul>
-                        <li><a href="chart-flot.html">Hosting</a></li>
-                        <li><a href="chart-morris.html">Domain</a></li>
+                        <li><a href="{{ route('layananhost') }}">Hosting</a></li>
+                        <li><a href="{{ route('layanandomain') }}">Domain</a></li>
                     </ul>
                 </li>
                 <hr>

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-// use App\Http\Controllers\DashboardController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +19,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Dashboard', $controller . '\DashboardController@index')->name('dashboard');
+Route::get('/dashboard', $controller . '\DashboardController@index')->name('dashboard');
+Route::get('/layananhost', $controller . '\LayananHostingController@index')->name('layananhost');
+Route::get('/layanandomain', $controller . '\LayananDomainController@index')->name('layanandomain');
