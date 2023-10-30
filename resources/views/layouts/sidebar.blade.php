@@ -15,7 +15,7 @@
                 </li>
                 <hr>
                 <li><a href="{{ route('cpanel') }}"><i class="ti-panel"></i> Akses Cpanel </a></li>
-                <li><a href="{{ route('database') }}"><i class="ti-server    "></i> Database</a></li>
+                <li><a href="{{ route('database') }}"><i class="ti-server"></i> Database</a></li>
                 <li><a href="{{ route('filemanager') }}"><i class="ti-files"></i> File Manager</a></li>
                 {{-- <li><a class="sidebar-sub-toggle"><i class="ti-archive"></i>Domain <span
                     class="sidebar-collapse-icon ti-angle-down"></span></a>
