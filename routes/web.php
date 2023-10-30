@@ -22,3 +22,7 @@ Route::get('/', function () {
 Route::get('/dashboard', $controller . '\DashboardController@index')->name('dashboard');
 Route::get('/layananhost', $controller . '\LayananHostingController@index')->name('layananhost');
 Route::get('/layanandomain', $controller . '\LayananDomainController@index')->name('layanandomain');
+Route::get('/cpanel', $controller . '\CpanelController@index')->name('cpanel');
+Route::get('/database', $controller . '\DatabaseController@index')->name('database');
+Route::get('/filemanager', $controller . '\FileManagerController@index')->name('filemanager');
+Route::get('/costumerservice', $controller . '\CostumerServiceController@index')->name('costumerservice');

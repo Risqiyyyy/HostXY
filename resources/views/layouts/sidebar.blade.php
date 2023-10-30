@@ -14,17 +14,17 @@
                     </ul>
                 </li>
                 <hr>
-                <li><a href="app-event-calender.html"><i class="ti-panel"></i> Akses Cpanel </a></li>
-                <li><a href="app-email.html"><i class="ti-server    "></i> Database</a></li>
-                <li><a href="app-profile.html"><i class="ti-files"></i> File Manager</a></li>
-                <li><a class="sidebar-sub-toggle"><i class="ti-archive"></i>Domain <span
+                <li><a href="{{ route('cpanel') }}"><i class="ti-panel"></i> Akses Cpanel </a></li>
+                <li><a href="{{ route('database') }}"><i class="ti-server    "></i> Database</a></li>
+                <li><a href="{{ route('filemanager') }}"><i class="ti-files"></i> File Manager</a></li>
+                {{-- <li><a class="sidebar-sub-toggle"><i class="ti-archive"></i>Domain <span
                     class="sidebar-collapse-icon ti-angle-down"></span></a>
                     <ul>
                         <li><a href="chart-flot.html">Addons Domain</a></li>
                         <li><a href="chart-morris.html">Sub Domain</a></li>
                     </ul>
-                </li>
-                <li><a href="app-widget-card.html"><i class="ti-headphone-alt"></i>Costumer Service</a></li>
+                </li> --}}
+                <li><a href="{{ route('costumerservice') }}"><i class="ti-headphone-alt"></i>Costumer Service</a></li>
             </ul>
         </div>
     </div>
