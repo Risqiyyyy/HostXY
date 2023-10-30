@@ -14,17 +14,17 @@
                     </ul>
                 </li>
                 <hr>
-                <li><a href="app-event-calender.html"><i class="ti-calendar"></i> Akses Cpanel </a></li>
-                <li><a href="app-email.html"><i class="ti-email"></i> Database</a></li>
-                <li><a href="app-profile.html"><i class="ti-user"></i> File Manager</a></li>
-                <li><a class="sidebar-sub-toggle"><i class="ti-bar-chart-alt"></i>Domain <span
+                <li><a href="app-event-calender.html"><i class="ti-panel"></i> Akses Cpanel </a></li>
+                <li><a href="app-email.html"><i class="ti-server    "></i> Database</a></li>
+                <li><a href="app-profile.html"><i class="ti-files"></i> File Manager</a></li>
+                <li><a class="sidebar-sub-toggle"><i class="ti-archive"></i>Domain <span
                     class="sidebar-collapse-icon ti-angle-down"></span></a>
                     <ul>
                         <li><a href="chart-flot.html">Addons Domain</a></li>
                         <li><a href="chart-morris.html">Sub Domain</a></li>
                     </ul>
                 </li>
-                <li><a href="app-widget-card.html"><i class="ti-layout-grid2-alt"></i>Costumer Service</a></li>
+                <li><a href="app-widget-card.html"><i class="ti-headphone-alt"></i>Costumer Service</a></li>
             </ul>
         </div>
     </div>
