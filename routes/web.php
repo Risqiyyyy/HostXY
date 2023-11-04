@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 $controller = 'App\Http\Controllers';
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Home');
 });
 
 Route::get('/dashboard', $controller . '\DashboardController@index')->name('dashboard');
