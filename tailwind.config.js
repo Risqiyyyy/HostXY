@@ -9,10 +9,11 @@ module.exports = {
     extend: {
       colors: {
         background: '#0A1B34',
-        primary: '#FF009D'
+        primary: '#FF009D',
+        secondary: '#B00000'
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 
