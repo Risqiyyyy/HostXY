@@ -35,7 +35,6 @@
         </nav>
         <!-- Navbar END -->
 
-
         <!-- Hero -->
         <section class="mt-[40px] md:mt-[80px]">
             <div class="flex flex-wrap justify-center lg:justify-between">
