@@ -107,11 +107,63 @@
                 <p class="text-xl lg:text-3xl font-semibold px-44 border-b-8">Premium</p>
             </div>
         </section>
+        <!-- Hosting plan END -->
+
         <!-- Card -->
-        <div class="flex justify-center items-center px-36 mt-14">
+        <div class="flex justify-center items-center px-36 mt-14 gap-32">
             <div class="w-64 text-black bg-white p-6 pb-10 rounded-xl mx-3">
                 <div>
                     <h1 class="text-3xl font-semibold">Starter</h1>
+                    <p class="text-sm mt-2">with all your customers via all conversation channels in one central dashboard.</p>
+                </div>
+                <div class="mt-5">
+                    <p class="text-4xl font-semibold">$2.80</p>
+                    <p>per month</p>
+                </div>
+                <button class="mt-5 font-semibold w-full border-2 border-black py-2 rounded-xl">Choose this Plan</button>
+                <div class="mt-5 flex flex-col gap-y-3">
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>2GB SSD</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>10GB Bandwidth</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>15 Email Accounts</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>Unlimited Database</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>4 Subdomains</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>1 Parked Domain</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>2 Websites</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>Free SSL</p>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <i class="fa-solid fa-check text-primary"></i>
+                        <p>Softaculous</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-64 text-black bg-white p-6 pb-10 rounded-xl mx-3">
+                <div>
+                    <h1 class="text-3xl font-semibold">Standard</h1>
                     <p class="text-sm mt-2">with all your customers via all conversation channels in one central dashboard.</p>
                 </div>
                 <div class="mt-5">
@@ -161,61 +213,11 @@
 
             <div class="w-64 text-black bg-white p-6 pb-10 rounded-xl mx-3">
                 <div>
-                    <h1 class="text-3xl font-semibold">Starter</h1>
+                    <h1 class="text-3xl font-semibold">Suprem</h1>
                     <p class="text-sm mt-2">with all your customers via all conversation channels in one central dashboard.</p>
                 </div>
                 <div class="mt-5">
-                    <p class="text-4xl font-semibold">$4.20</p>
-                    <p>per month</p>
-                </div>
-                <button class="mt-5 font-semibold w-full border-2 border-black py-2 rounded-xl">Choose this Plan</button>
-                <div class="mt-5 flex flex-col gap-y-3">
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>2GB SSD</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>10GB Bandwidth</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>15 Email Accounts</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>Unlimited Database</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>4 Subdomains</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>1 Parked Domain</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>2 Websites</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>Free SSL</p>
-                    </div>
-                    <div class="flex items-center gap-x-5">
-                        <i class="fa-solid fa-check text-primary"></i>
-                        <p>Softaculous</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w-64 text-black bg-white p-6 pb-10 rounded-xl mx-3">
-                <div>
-                    <h1 class="text-3xl font-semibold">Starter</h1>
-                    <p class="text-sm mt-2">with all your customers via all conversation channels in one central dashboard.</p>
-                </div>
-                <div class="mt-5">
-                    <p class="text-4xl font-semibold">$4.20</p>
+                    <p class="text-4xl font-semibold">$7.00</p>
                     <p>per month</p>
                 </div>
                 <button class="mt-5 font-semibold w-full border-2 border-black py-2 rounded-xl">Choose this Plan</button>
@@ -260,7 +262,144 @@
             </div>
         </div>
         <!-- Card END -->
-        <!-- Hosting Plan END -->
+
+        <!-- Other Features -->
+        <section class="flex flex-col justify-center items-center lg:mt-28 mt-20">
+            <h1 class="text-xl lg:text-3xl font-semibold text-primary bg-secondary bg-opacity-[15%] lg:pb-2 pb:3 px-6 rounded-full">Other Features</h1>
+            <p class="text-xs lg:text-2xl text-center mt-3">The most complete features in Open cpanel</p>
+        </section>
+        <!-- Other Features END -->
+
+        <!-- List other features -->
+        <div class="flex justify-between flex-wrap mt-36">
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Cpanel Control Panel</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited Database</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited FTP</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited SSD Disk Space</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited Domain</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited Sub Domain</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited Bandwidth</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited Email</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Unlimited Traffic</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Auto SSL</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Cloudlinux</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Nodejs</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Softaculous</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Litespeed</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Python</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Jet Backup</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Imunify360</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center gap-x-5 w-[450px] my-5">
+                <i class="fa-solid fa-check text-primary"></i>
+                <div class="flex flex-col items-start">
+                    <p class="text-xs lg:text-2xl text-center mt-3 text-primary font-bold">Ruby</p>
+                    <p class="text-xs mt-1 font-bold max-w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, modi.</p>
+                </div>
+            </div>
+        </div>
+        <!-- List other features END -->
 
 
     </main>
