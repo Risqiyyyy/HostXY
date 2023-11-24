@@ -26,3 +26,6 @@ Route::get('/cpanel', $controller . '\CpanelController@index')->name('cpanel');
 Route::get('/database', $controller . '\DatabaseController@index')->name('database');
 Route::get('/filemanager', $controller . '\FileManagerController@index')->name('filemanager');
 Route::get('/costumerservice', $controller . '\CostumerServiceController@index')->name('costumerservice');
+
+Route::get('/login', $controller . '\LoginControoller@index')->name('login');
+Route::get('/register', $controller . '\RegisterControoller@index')->name('register');

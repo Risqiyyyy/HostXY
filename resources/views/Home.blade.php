@@ -10,32 +10,7 @@
     <main class="min-h-screen bg-background px-14 text-white">
         
         <!-- Navbar -->
-        <nav class="flex py-5 justify-between items-center">
-            <img src="images/landingPage/logo_xy.svg" alt="Logo XY" class="w-[70px] md:w-[120px] lg:w-[150px]">
-            <button>
-                <img src="images/landingPage/toogle.svg" alt="Toogle Menu Icon" class="visible w-5 md:w-10 lg:invisible">
-            </button>
-
-            <div class="hidden items-center lg:flex gap-x-[80px]">
-                <ul class="flex font-semibold text-base gap-x-5 ">
-                    <li>Home</li>
-                    <li>Hosting</li>
-                    <li>Promo</li>
-                    <li>Layanan</li>
-                    <li>Kontak</li>
-                </ul>
-                <div class="flex items-center md:gap-x-3 lg:gap-x-10">
-                    <button class="bg-primary py-2 px-5 rounded-xl">
-                        <p class="font-semibold text-sm">Login</p>
-                    </button>
-                    <p>|</p>
-                    <div class="flex items-center">
-                        <img src="images/landingPage/phone.svg" alt="Phone Icon" class="md:w-4">
-                        <p class="font-semibold ml-2 text-base">+6283117060631</p>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        @include('navbar')
         <!-- Navbar END -->
 
         <!-- Hero -->
@@ -110,8 +85,8 @@
         <!-- Hosting plan END -->
 
         <!-- Card -->
-        <div class="flex justify-center items-center px-36 mt-14 gap-32">
-            <div class="w-64 text-black bg-white p-6 pb-10 rounded-xl mx-3">
+        <div class="flex flex-wrap justify-center items-center px-36 mt-14 lg:gap-20 gap-15">
+            <div class="w-64 text-black bg-white p-6 pb-10 rounded-xl mb-3 mx-3">
                 <div>
                     <h1 class="text-3xl font-semibold">Starter</h1>
                     <p class="text-sm mt-2">with all your customers via all conversation channels in one central dashboard.</p>
